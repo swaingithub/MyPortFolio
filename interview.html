@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>InterviewQuestion</title>
+<link rel="icon" type="image/x-icon" href="./img/Screenshot 2023-04-01 193135.png">
+<style>
+body {
+  background: #fff;
+  font-family: sans-serif;
+  
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+  background: #f9f9f7;
+  padding: 10px;
+  
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:10%;
+    background-color: #fff;
+    border-bottom: 2px solid #e8e8e8;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(186, 12, 151);
+    font-weight: bold;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    /* padding: 0 .25rem; */
+    transition: color .4s ease-in-out, box-shadow .4s ease-in-out; 
+}
+.nav ul li a:hover{
+    color: chartreuse;
+    transition:  al .3s ease-out;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(13, 86, 86);
+}
+</style>
+</head>
+<body>
+
+<div class="content">
+    <div class="nav">
+        <div class="logo">scriptInterview</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">practice</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Free Mock!</a></li>
+        </ul>
+    </div>
+    <h2>Top 50  JavaScript interview question</h2><br>
+    <h3>1.What is javascript? Feature of javascript?</h3>
+    <p>Ans. JavaScript is a popular programming language used for creating interactive and dynamic web pages. It is a client-side language, meaning it runs on the user's computer rather than on the server. JavaScript allows web developers to add interactivity, create animations, and validate user input on a webpage.</p><br>
+    <h3>2.Is javascript is strictly typed and dynamic typed? Explain with example</h3>
+    <p>Ans.  JavaScript is a dynamically typed language, which means that variables do not have a specific type assigned to them. For example, a variable can be assigned a string value and then later assigned a numerical value without any issues. However, JavaScript does have some type checking that occurs at runtime.</p><br>
+    <h3>3.Why do we need javaScript? explain?</h3>
+    <p>Ans. We need JavaScript for several reasons, including:
+        Adding interactivity and dynamic content to web pages<br>
+        Validating user input and handling form submissions<br>
+        Creating animations and special effects<br>
+        Building web-based games and applications<br>
+        Communicating with servers to retrieve or send data<br>
+        Creating mobile applications using frameworks such as React Native.</p><br>
+    <h3>4.Types of JavaScript?</h3>
+    <p>Ans. Types of JavaScript include:
+        Vanilla JavaScript: This refers to plain JavaScript without the use of any libraries or frameworks.<br>
+        Node.js: This is a runtime environment that allows JavaScript to be run on servers.<br>
+        React: This is a JavaScript library used for building user interfaces.<br>
+        Angular: This is a JavaScript framework used for building web applications.<br>
+        Vue.js: This is a JavaScript framework used for building user interfaces.</p><br>
+    <h3>5.What are the variables? types of variable? Difference between them explain.</h3>
+    <p>Ans. Variables are containers that hold values in a program. There are three types of variables in JavaScript:
+        var: This keyword is used to declare a variable that has function scope. It can be redeclared and updated throughout the program.
+        let: This keyword is used to declare a variable that has block scope. It can be updated but not redeclared within the same block.
+        const: This keyword is used to declare a variable that has block scope and cannot be updated or redeclared.</p><br>
+    <h3>6.What is type of operator?</h3>
+    <p>Ans.The typeof operator is used to determine the data type of a value or variable in JavaScript.</p><br>
+    <h3>7.Difference between == & ===.</h3>
+    <p>Ans. The double equals (==) operator compares the values of two operands for equality, while the triple equals (===) operator compares the values and types of two operands for equality.</p><br>
+    <h3>8.What is an array in JavaScript? explain few array methods. </h3>
+    <p>Ans. An array is a collection of values that are stored in a single variable. Some common array methods in JavaScript include:
+
+        push(): Adds one or more elements to the end of an array.<br>
+        pop(): Removes the last element from an array.<br>
+        shift(): Removes the first element from an array.<br>
+        unshift(): Adds one or more elements to the beginning of an array.<br>
+        slice(): Returns a new array that contains a portion of an existing array.<br>
+        splice(): Adds or removes elements from an array.</p><br>
+    <h3>9.Difference between slice and splice? explain with syntax.</h3>
+    <p>Ans. The slice() method returns a new array that contains a portion of an existing array without modifying the original array. The splice() method adds or removes elements from an array and modifies the original array. The syntax for slice() is:<br>
+        array.slice(startIndex, endIndex);<br>
+        
+        The syntax for splice() is:<br>
+        
+        array.splice(startIndex, countToRemove, item1, item2, ...);</p><br>
+    <h3>10.What is variable hoisting?</h3>
+    <p>Ans. Variable hoisting is a behavior in JavaScript where variable declarations are moved to the top of their respective scope, regardless of where they are declared within the scope. This allows variables to be used before they are declared.</p><br>
+    <h3>11.Create an object, read an opbject, edit an object and delete an object?</h3>
+    <p>Ans. To create an object in JavaScript, we can use object literal notation:<br>
+
+        const myObject = {<br>
+        name: "John",<br>
+        age: 30,<br>
+        city: "New York"<br>
+        };<br>
+        
+        To read a property from an object, we can use dot notation:<br>
+        
+        console.log(myObject.name);<br>
+        
+        To edit a property in an object, we can use dot notation:<br>
+        
+        myObject.age = 31;<br>
+        
+        To delete a property from an object, we can use the delete keyword:<br>
+        
+        delete myObject.city;</p></br>
+    <h3>12.Explain object method?</h3>
+    <p>Ans. Object methods are functions that are defined inside an object and can be called on the object. They allow us to perform operations on the object's data or properties. For example, we can define a method called "calculateArea" on an object representing a rectangle that calculates the area of the rectangle based on its width and height.</p><br>
+    <h3>13.Create opbject using constructor method?</h3>
+    <p>Ans.An object can also be created using the constructor method in JavaScript. This involves defining a constructor function that creates a new object with certain properties and methods. For example:</p><br>
+    <p>function Person(name, age) {<br>
+        this.name = name;<br>
+        this.age = age;<br>
+        this.greet = function() {<br>
+          console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);<br>
+        };<br>
+      }<br>
+      <br>
+      const john = new Person("John", 30);<br>
+      john.greet(); // Output: Hello, my name is John and I am 30 years old.<br>
+      </p>
+    <h3>14.What is 'this' keyword used for? Explain with example.</h3>
+    <p>Ans.The "this" keyword is used to refer to the current object or instance of an object in JavaScript. It is often used inside methods to refer to the object that the method is called on. For example:</p><br>
+    <p>const person = {<br>
+        name: "John",<br>
+        age: 30,<br>
+        greet: function() {<br>
+          console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);<br>
+        }<br>
+      };<br>
+      
+      person.greet(); // Output: Hello, my name is John and I am 30 years old.<br>
+      </p><br>
+    <h3>15.What is local variable and global variables? Explain with example.</h3>
+    <p>In JavaScript, a local variable is a variable that is declared inside a function and can only be accessed within that function. A global variable is a variable that is declared outside of a function and can be accessed from anywhere in the program. For example:</p><br>
+    <p>function sayHello() {<br>
+        const message = "Hello";<br>
+        console.log(message); // Output: Hello<br>
+      }<br>
+      <br>
+      sayHello();<br>
+      <br>
+      const name = "John";<br>
+      <br>
+      function greet() {<br>
+        console.log(`Hello, ${name}`); // Output: Hello, John<br>
+      }<br>
+      <br>
+      greet();<br>
+      </p><br>
+    <h3>16.What is function? Difference types function.</h3>
+    <p>A function is a block of code that performs a specific task. There are several types of functions in JavaScript, including:<br>
+        Function declarations: These are defined using the "function" keyword followed by a name and a block of code.<br>
+        Function expressions: These are defined by assigning a function to a variable or constant.<br>
+        Arrow functions: These are a shorthand way of defining a function using the "=>" syntax.<br>
+        Anonymous functions: These are functions that do not have a name and are often used as arguments for other functions.<br>
+        IIFE (Immediately Invoked Function Expression): These are functions that are executed as soon as they are defined.</p><br>
+    <h3>17.What is spread operator amd rest operator? Write an example.</h3>
+    <p>The spread operator (...) and rest operator (...) are two related operators in JavaScript. The spread operator can be used to expand an array or object into individual elements, while the rest operator can be used to collect multiple arguments into an array. For example:</p><br>
+    <p>const numbers = [1, 2, 3];<br>
+        const newNumbers = [...numbers, 4, 5]; // Output: [1, 2, 3, 4, 5]<br>
+        <br>
+        function sum(...args) {<br>
+          return args.reduce((total, num) => total + num);<br>
+        }<br>
+        <br>
+        console.log(sum(1, 2, 3, 4)); // Output: 10<br>
+        </p><br>
+    <h3>18.What is closure?Write program for getting closure.</h3>
+    <p>A closure is a function that has access to variables in its outer function scope, even after the outer function has returned. Closures are created by defining a function inside another function and returning it. For example:</p><br>
+    <p>function outer() {<br>
+        const message = "Hello";<br>
+        function inner() {<br>
+          console.log(message);<br>
+        }<br>
+        return inner;<br>
+      }<br>
+      outer();<br>
+      <br>
+      </p><br>
+      <p>or, A closure is a function that has access to its parent's variables, even after the parent function has been executed. It is created when a function is defined inside another function and the inner function refers to variables in the outer function. The inner function can access the variables of the outer function, even after the outer function has returned. Here's an example:</p><br>
+      <p>function add(x) {<br>
+        return function(y) {<br>
+          return x + y;<br>
+        }<br>
+      }<br>
+      
+      let add5 = add(5);<br>
+      console.log(add5(3)); // Output: 8<br>
+      console.log(add5(5)); // Output: 10<br>
+      </p><br>
+    <h3>19.What is callback function? Write a program.</h3>
+    <p>Ans. Callback Function:<br>
+        A callback function is a function that is passed as an argument to another function and is executed when the first function is done. Callback functions are often used in asynchronous programming, where a function is called and then another function is called when the first function is finished. Here's an example:</p><br>
+        <p>function multiply(x, y, callback) {<br>
+            let result = x * y;<br>
+            callback(result);<br>
+          }<br>
+          <br>
+          function displayResult(result) {<br>
+            console.log("The result is: " + result);<br>
+          }<br>
+          <br>
+          multiply(5, 3, displayResult); // Output: The result is: 15<br>
+          </p><br>
+    <h3>20.Difference between map and forEach? Explain with example.</h3>
+    <p>Difference between map() and forEach():<br>
+        Both map() and forEach() are methods that can be used to iterate over an array in JavaScript, but they differ in their return value and the way they modify the original array.<br>
+        map() creates a new array with the results of calling a provided function on every element in the original array. The original array is not modified. Here's an example:</p><br>
+        <p>let numbers = [1, 2, 3, 4];<br>
+            <br>
+            let doubled = numbers.map(function(num) {<br>
+              return num * 2;<br>
+            });<br>
+            <br>
+            console.log(doubled); // Output: [2, 4, 6, 8]<br>
+            console.log(numbers); // Output: [1, 2, 3, 4]<br>
+            </p><br>
+            <p>forEach() executes a provided function once for each array element. It does not return a new array. The original array is not modified. Here's an example:</p><br>
+            <p>let numbers = [1, 2, 3, 4];<br>
+                <br>
+                numbers.forEach(function(num) {<br>
+                  console.log(num);<br>
+                });<br>
+                <br>
+                // Output:<br>
+                // 1<br>
+                // 2<br>
+                // 3<br>
+                // 4<br>
+                <br>
+                console.log(numbers); // Output: [1, 2, 3, 4]<br>
+                </p><br>
+    <h3>21.What is type of coersion in js? Explain with an example.</h3>
+    <p>Type coercion in JavaScript:<br>
+        Type coercion is the automatic or implicit conversion of values from one data type to another. JavaScript uses type coercion extensively, which can sometimes lead to unexpected results. For example:</p><br>
+       <p>console.log("5" + 1); // Output: "51<br>
+    </p>
+    <h3>22.What is NaN property in JavaScript?</h3>
+    <p>Ans. NaN property represents the “Not-a-Number” value. It indicates a value that is not a legal number.<br>
+        <br>
+        typeof of NaN will return a Number.<br>
+        <br>
+        To check if a value is NaN, we use the isNaN() function,<br>
+        
+        Note- isNaN() function converts the given value to a Number type, and then equates to NaN.<br>
+        isNaN("Hello")  // Returns true<br>
+        isNaN(345)   // Returns false<br>
+        isNaN('1')  // Returns false, since '1' is converted to Number type which results in 0 ( a number) <br>
+        isNaN(true) // Returns false, since true converted to Number type results in 1 ( a number)<br>
+        isNaN(false) // Returns false<br>
+        isNaN(undefined) // Returns true<br>
+</div>
+
+</body>
+</html>
